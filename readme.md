@@ -6,14 +6,6 @@
 
 An end-to-end NLP pipeline and interactive Streamlit dashboard for inspecting S&P 500 quarterly earnings call transcripts (typically 15,000–20,000 words). The tool strips legal Safe Harbor boilerplate, parses speakers and analyst Q&A pairs, scores management tone and evasiveness, generates structured summaries, and answers transcript questions with verifiable citations. Alongside the dashboard, a separate quantitative backtester evaluates whether call sentiment and evasiveness predict post-earnings stock excess returns across 4,000 calls.
 
-## Quick links
-
-- **Prefinal Report:** [`report.pdf`](report.pdf)
-- **Failure Journal:** [`failure-journal.pdf`](failure-journal.pdf)
-- **Team Contributions:** [`contributions.pdf`](contributions.pdf)
-- **Detailed Failure Trace (Norfolk Southern):** [`docs/nsc-example.md`](docs/nsc-example.md)
-- **Dashboard Notebook (Google Colab):** [Open `Earnings_Call_Demo_Dashboard_v7-1.ipynb` in Colab](https://colab.research.google.com/drive/14vZUU0VbiyV78cjWfgHkPi4-oK0GqWp7)
-
 ---
 
 ## Repository map
